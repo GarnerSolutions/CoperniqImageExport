@@ -11,7 +11,7 @@
 11. Open Notepad by searching for it in the windows search bar
 12. In Notepad, click File -> Open and change the file type at the bottom right from .txt files to All Files, then navigate to your PhotoExport folder in the Desktop and click on your installPhotos.py file
 13. Hit `CTRL + F` on your keyboard and search for the following: Set the PDF
-14. Below this line, there should be a line that reads something similar to: pdf_name = "YOUR PDF's NAME HERE.pdf"
+14. Below this line, there should be a line that reads something similar to: pdf_name = "YOUR PDF's NAME HERE"
 15. Replace the text inside the quotes with the name of your PDF and save the file. You can hit `CTRL + S` to save
 17. Open your PhotoExport folder, click once on your installPhotos.py file and press `Alt + Enter`
 18. Look for the "Location:" and copy the location. It should look something like this: \Users\brighthouse\OneDrive\Desktop\Brighthouse\PhotoExport
