@@ -23,8 +23,13 @@ def download_and_save_image(url, path):
 
 script_dir = os.path.dirname(os.path.abspath(__file__))
 
-# Set the PDF file name to the name of your PDF file
-pdf_name = "Danna Aguilar_Install Photos - SOLRITE_20240612100635.pdf"
+# Set the PDF file name to the name of your PDF file, without the .pdf extension
+pdf_name = "YOUR PDF's NAME HERE"
+
+# Automatically add .pdf extension if not already present
+if not pdf_name.endswith('.pdf'):
+    pdf_name += '.pdf'
+
 pdf_path = os.path.join(script_dir, pdf_name)
 
 output_dir = os.path.join(script_dir, 'Images', pdf_name.split('_')[0])
